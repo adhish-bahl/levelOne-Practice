@@ -8,3 +8,9 @@ body {
 input {
     display: block;
 }
+
+#output {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
