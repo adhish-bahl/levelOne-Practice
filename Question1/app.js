@@ -1,19 +1,17 @@
-const numOne = document.querySelector("#firstnum");
-const numTwo = document.querySelector("#secondnum");
-const add = document.querySelector("#add");
-const subtract = document.querySelector("#subract");
-const multiply = document.querySelector("#multiply");
-const divide = document.querySelector("#divide");
-const output = document.querySelector("#output");
-
-
-const first = numOne.value;
-const two = numTwo.value;
-
-console.log(first, two);
+var numOne = document.querySelector("#firstnum");
+var numTwo = document.querySelector("#secondnum");
+var add = document.querySelector("#add");
+var subtract = document.querySelector("#subract");
+var multiply = document.querySelector("#multiply");
+var divide = document.querySelector("#divide");
+var output = document.querySelector("#output");
 
 function sum() {
-    output.innerText = first + two;
+    var first = numOne.value;
+    var two = numTwo.value;
+    console.log(first, two);
+    var result = first+two;
+    output.innerText = result;
 }
 function minus() {
     output.innerText = first - two;
