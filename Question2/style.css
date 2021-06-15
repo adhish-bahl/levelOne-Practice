@@ -1,5 +1,5 @@
 * {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 body {
@@ -16,5 +16,12 @@ p {
 #input {
     border: black solid 1px;
     width: 200px;
-    height: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+button {
+    width: 95px;
+    margin: 5px;
+    font-size: larger;
 }
