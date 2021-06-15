@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    text-align: center;
+}
+
+#output {
+    border: black solid 1px;
+    width: 200px;
+    height: 200px;
+}
