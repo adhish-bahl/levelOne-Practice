@@ -1,5 +1,4 @@
 const input = document.querySelector("#input");
-const output = document.querySelector("#output");
 const increase = document.querySelector("#increase");
 const decrease = document.querySelector("#decrease");
 
