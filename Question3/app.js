@@ -20,11 +20,3 @@ H3.addEventListener("click", ()=> {
     console.log(input.val);
     output.outerHTML = '<h3 class="output" id="output">' + input.value + '</h3>';
 });
-
-
-// input.onchange
-// input.addEventListener("change", () => {
-//     var inputVal = input.value;
-//     console.log(inputVal);
-//     output.innerHTML = inputVal;
-// });
