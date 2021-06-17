@@ -1,0 +1,21 @@
+* {
+    font-size: 1.4rem;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.buttons , input {
+    text-align: center;
+    padding: 2px;
+}
+
+.buttons button{
+    margin: 0px 15px;
+}
