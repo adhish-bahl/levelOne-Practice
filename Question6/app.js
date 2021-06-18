@@ -7,6 +7,4 @@ button.addEventListener("click", ()=> {
     
     // heading.style.display = "none";
     // display does not reserves the space for the element and while shifts all the other elements up!
-
-    console.log("click");
 });
