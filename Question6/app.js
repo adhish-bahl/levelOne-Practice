@@ -1,6 +1,7 @@
-const heading = document.querySelector(".loading h1");
+const heading = document.querySelector("#heading");
 const button = document.querySelector(".button button");
 
 button.addEventListener("click", ()=> {
-    heading.style.visibility = "hidden";
+    heading.style.display = "none";
+    console.log("click");
 });
