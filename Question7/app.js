@@ -14,8 +14,8 @@ button.addEventListener("click", ()=> {
         var outputtext = json.contents.translated;
         output.innerText = outputtext;
     })
-    .catch(()=> {
-        alert("Error occured");
+    .catch(() => {
+        alert("Error: error occured, try after few time.");
     })
     // console.log(finalapi);
 });
