@@ -1,0 +1,24 @@
+* {
+    font-size: 1.3rem;
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input, .outputPara {
+    padding: 3px;
+}
+
+.outputPara {
+    border: 1px solid black;
+    height: 1.3rem;
+    width: 400px;
+}
