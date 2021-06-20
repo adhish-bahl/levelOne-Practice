@@ -1,6 +1,6 @@
 const button = document.querySelector("#button");
 const input = document.querySelector("#input");
-const output = document.querySelector("#outputPara");
+const output = document.querySelector(".outputPara");
 const api = "https://api.funtranslations.com/translate/minion.json?text=";
 
 button.addEventListener("click", ()=> {
