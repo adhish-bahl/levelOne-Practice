@@ -3,6 +3,7 @@
     padding: 3px;
     outline: none;
     border-radius: 10px;
+    overflow-y: hidden;
 }
 
 body {
