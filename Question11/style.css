@@ -1,0 +1,21 @@
+* {
+    padding: 4px;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.4rem;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outputPara {
+    height: 1.5rem;
+    width: 200px;
+    border: 1px solid black;
+}
