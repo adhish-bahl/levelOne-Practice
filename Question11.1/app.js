@@ -16,7 +16,7 @@ button.addEventListener("click", ()=> {
 //     }
 
 button.disabled = true;
-button.setTimeout(() => {
+setTimeout(() => {
     button.disabled = false;
 }, 2000);
 })
