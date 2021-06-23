@@ -2,12 +2,19 @@ const input = document.querySelector("#input");
 const button = document.querySelector("#button");
 
 button.addEventListener("click", ()=> {
-    switch(input.value) {
-        case "red": input.style.backgroundcolor = "red";
-                    break;
-        case "yellow": input.style.backgroundcolor = "yellow";
-                        break;
-        default: input.style.backgroundcolor = "blue";
-                    break;
-    }
+    const inputValue = input.value;
+    input.style.backgroundColor = inputValue;
+
+    
+//     switch(inputValue) {
+//         case "red": input.style.backgroundColor = inputValue;
+//                     break;
+//         case "yellow": input.style.backgroundColor = inputValue;
+//                         break;
+//         default: input.style.backgroundColor = "blue";
+//                     break;
+//     }
+
+
+
 })
