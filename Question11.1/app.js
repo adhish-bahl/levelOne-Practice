@@ -5,7 +5,7 @@ button.addEventListener("click", ()=> {
     const inputValue = input.value;
     input.style.backgroundColor = inputValue;
 
-    
+
 //     switch(inputValue) {
 //         case "red": input.style.backgroundColor = inputValue;
 //                     break;
@@ -15,6 +15,5 @@ button.addEventListener("click", ()=> {
 //                     break;
 //     }
 
-
-
+button.disabled = true;
 })
