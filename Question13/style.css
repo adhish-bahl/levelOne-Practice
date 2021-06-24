@@ -1,0 +1,31 @@
+:root {
+    --primaryColor: rgb(23, 23, 41);
+    --secsondaryColor: blue;
+}
+
+* {
+    margin: 10px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.primary {
+    background-color: var(--primaryColor);
+}
+
+.secondary {
+    background-color: var(--secsondaryColor);
+}
