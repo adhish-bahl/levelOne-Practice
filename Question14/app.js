@@ -16,4 +16,4 @@ if(peopleInfo[0].age > peopleInfo[1].age) {
     console.log(peopleInfo[0].name);
 } else {
     console.log(peopleInfo[1].name);
-}
+};
