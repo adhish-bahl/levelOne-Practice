@@ -1,13 +1,18 @@
 var readlineSync = require("readline-sync");
-
-var students = [{name, unit, prefinal, final}];
-
+var studentName = [];
+var unitMarks = [];
+var prefinalMarks = [];
+var finalMarks = [];
 let sum = 0;
 
 for(let i = 0; i < 5; i++) {
-  students[i].name = readlineSync.question("Name: ");
-  students[i].unit = readlineSync.question("Unit Test Marks: ");
-  students[i].prefinal = readlineSync.question("Pre-final Marks: ");
-  students[i].final = readlineSync.question("Final Marks: ");
-  sum = sum + students[i].unit + students[i].prefinal + students[i].final;
+  studentName[i] = readlineSync.question("Name: ");
+  unitMarks[i] = readlineSync.question("Unit Test Marks: ");
+  prefinalMarks[i] = readlineSync.question("Pre-final Marks: ");
+  finalMarks[i] = readlineSync.question("Final Marks: ");
+  sum = sum + unitMarks[i] + prefinalMarks[i] + finalMarks[i];
 }
+
+console.log(studentName.length);
+
+// console.log("yooo");
