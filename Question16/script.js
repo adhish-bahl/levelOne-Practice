@@ -18,8 +18,12 @@ person2.power = readlineSync.question("Power: ");
 //calling function
 checkPower(person1, person2);
 
-//function for comparing 
+//function for comparing the objects
 function checkPower(object1, object2) {
+
+  var len1 = object1.name.length();
+  var len2 = object2.name.length();
+
   console.log("ACCORDING TO POWER!!");
   if(object1.power > object2.power) {
     console.log(object1.name);
