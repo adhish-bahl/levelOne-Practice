@@ -53,15 +53,3 @@ function checkPower(object1, object2) {
     console.log("Both have the same power!!");
   }
 }
-
-
-
-// if(person1.power > person2.power) {
-//   console.log(person1.name);
-// }
-// else if(person1.power < person2.power) {
-//   console.log(person2.name);
-// }
-// else {
-//   console.log("Both have the same power!!");
-// }
