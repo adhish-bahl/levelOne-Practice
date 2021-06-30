@@ -23,8 +23,20 @@ function checkPower(object1, object2) {
 
   var len1 = object1.name.length();
   var len2 = object2.name.length();
+
   var lenPow1 = len1 * 35;
   var lenPow2 = len2 * 35;
+
+  console.log("ACCORDING TO Charectors!!");
+  if(lenPow1 > lenPow2) {
+    console.log(object1.name);
+  }
+  else if(lenPow1 < lenPow2) {
+    console.log(object2.name);
+  }
+  else {
+    console.log("Both have the same power!!");
+  }
 
   console.log("ACCORDING TO POWER!!");
   if(object1.power > object2.power) {
