@@ -24,7 +24,6 @@ function checkPower(object1, object2) {
   //calculating length of each name
   var len1 = object1.name.length();
   var len2 = object2.name.length();
-
   //calculating power using number of charectors
   var lenPow1 = len1 * 35;
   var lenPow2 = len2 * 35;
