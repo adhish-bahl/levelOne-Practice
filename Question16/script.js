@@ -1,6 +1,8 @@
 //importing readline-sync library
 var readlineSync = require("readline-sync");
 
+
+
 //declaring objects
 let person1 = new Object;
 let person2 = new Object;
